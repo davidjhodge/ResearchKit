@@ -75,6 +75,11 @@ typedef NS_ENUM(NSInteger, ORKQuestionType) {
      The integer question type asks the participant to enter an integer number.
      */
     ORKQuestionTypeInteger,
+
+    /**
+     The integer question type asks the participant to enter a phone number.
+     */
+    ORKQuestionTypePhoneNumber,
     
     /**
      The Boolean question type asks the participant to enter Yes or No (or the appropriate
